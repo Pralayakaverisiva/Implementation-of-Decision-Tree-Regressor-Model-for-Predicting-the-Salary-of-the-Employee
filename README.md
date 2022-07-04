@@ -15,13 +15,14 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 5. Import metrics and calculate the Mean squared error.
 6. Apply metrics to the dataset, and predict the output.
 
+
 ## Program:
 ```
-/*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
-Developed by: AAKASH S. 
-RegisterNumber:  212221240001
-*/
+Developed by: siva
+RegisterNumber:  212220040121
+```
+```
 import pandas as pd
 data = pd.read_csv("Salary.csv")
 data.head()
@@ -46,20 +47,25 @@ r2 = metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
 ```
+
 ## Output:
 ### Data Head:
-![Output](A.png)
-### Data Info:
-![Output](AA.png)
-### Data Head after applying LabelEncoder():
-![Output](AAA.png)
-### MSE:
-![Output](B.png)
-### r2:
-![Output](BB.png)
-### Data Prediction:
-![Output](BBB.png)
+![head](https://user-images.githubusercontent.com/93427923/169694235-41a469cc-ff3e-4c56-b36c-029319ef1f94.png)
 
+### Data Info:
+![info](https://user-images.githubusercontent.com/93427923/169694238-85077655-4a64-4334-b451-997c7ea1937d.png)
+
+### Data Head after applying LabelEncoder():
+![head2](https://user-images.githubusercontent.com/93427923/169694242-dd7cae7b-50db-4864-96aa-ca8eb07514e3.png)
+
+### MSE:
+![mse](https://user-images.githubusercontent.com/93427923/169694248-eefed989-8fc7-4e80-b3af-992667d1936a.png)
+
+### r2:
+![r2](https://user-images.githubusercontent.com/93427923/169694252-b17fc5dd-22fd-46e0-b8de-991fd12528ed.png)
+
+### Data Prediction:
+![predict](https://user-images.githubusercontent.com/93427923/169694255-16669af0-0ed0-416e-b387-d63f2f3e9dc3.png)
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
